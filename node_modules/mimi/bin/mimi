@@ -1,0 +1,71 @@
+#!/usr/bin/env node
+
+var program = require("commander");
+
+program
+  .version("0.0.1")
+  .usage("command <appnmae> [options]")
+  .option("-c, --clock <time>", "run command at a specify time");
+
+/**
+ * custom help
+ */
+program.on("--help", function(){
+  console.log("  Examples:");
+  console.log("");
+  console.log("    $ mimi add myapp");
+  console.log("    $ mimi deploy myapp");
+  console.log("");
+});
+
+/**
+ * add a app
+ */
+program
+  .command("add")
+  .description("cd the app root directory and add the app to mimi. Appname use package name as default")
+  .action(function(app) {
+    console.log("adding %s to mimi ...", app);
+  });
+
+/**
+ * deploy a app
+ */
+program
+  .command("deploy")
+  .description("deploy a app")
+  .action(function(app) {
+    console.log("deploying %s ...", app);
+  });
+
+/**
+ * start a app
+ */
+program
+  .command("start")
+  .description("start a app")
+  .action(function(app) {
+    console.log("starting %s ...", app);
+  });
+
+/**
+ * stop a app
+ */
+program
+  .command("stop")
+  .description("stop a app")
+  .action(function(app) {
+    console.log("stopping %s ...", app);
+  });
+
+/**
+ * restart a app
+ */
+program
+  .command("restart")
+  .description("restart a app")
+  .action(function(app) {
+    console.log("restarting %s ...", app);
+  });
+
+program.parse(process.argv);

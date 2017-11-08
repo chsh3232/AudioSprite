@@ -1,0 +1,17 @@
+{
+  "resources": [
+    "./results/result.mp3"
+  ],
+  "spritemap": {
+    "bomb": {
+      "start": 0,
+      "end": 1.5814739229024943,
+      "loop": false
+    },
+    "bomb_snail": {
+      "start": 2,
+      "end": 3.0448979591836736,
+      "loop": false
+    }
+  }
+}

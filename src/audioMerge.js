@@ -45,7 +45,22 @@ downloadResults = function (req, res) {
 
     filename = path.basename(mp3FilePath), mimetype = mime.getType(mp3FilePath);
     res.send( mp3FilePath );
+    removeFolders();
 };
+
+removeFolders = function()
+{
+    const directory = 'uploads';
+    fs.readdir(directory, (err, files) => {
+      if (err) throw err;
+    
+      for (const file of files) {
+        fs.unlink(path.join(directory, file), err => {
+          if (err) throw err;
+        });
+      }
+    });
+}
 
 
 

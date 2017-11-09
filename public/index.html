@@ -91,14 +91,6 @@
         fd.addEventListener("dragover", fdOver, false);
         fd.addEventListener("dragleave", fdOver, false);
         fd.addEventListener("drop", fdUpload, false);
-
-        function onLoaded(e) {
-            console.log('로드완료');
-            var x = e.currentTarget;
-            x.removeEventListener('onloadend', onLoaded);
-            x.open("get", '/', true);
-            x.send();
-        }
     </script>
 </body>
 

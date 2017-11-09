@@ -3,9 +3,559 @@
     "./results/result.mp3"
   ],
   "spritemap": {
-    "add_bonus_bubble": {
+    "apriEvent_get_toy": {
       "start": 0,
-      "end": 0.41904761904761906,
+      "end": 1.9853061224489796,
+      "loop": false
+    },
+    "bc_easter_crash_get": {
+      "start": 2,
+      "end": 5.160816326530613,
+      "loop": false
+    },
+    "bc_easter_crash_not_get": {
+      "start": 6,
+      "end": 9.787755102040816,
+      "loop": false
+    },
+    "bc_easter_drop": {
+      "start": 10,
+      "end": 12.821224489795918,
+      "loop": false
+    },
+    "bc_easter_jewel_get_popup": {
+      "start": 13,
+      "end": 14.253877551020409,
+      "loop": false
+    },
+    "bc_easter_popup": {
+      "start": 15,
+      "end": 16.41061224489796,
+      "loop": false
+    },
+    "bc_hot_deal_evt": {
+      "start": 17,
+      "end": 20.578775510204082,
+      "loop": false
+    },
+    "bc_magic_apple_boom": {
+      "start": 21,
+      "end": 21.914285714285715,
+      "loop": false
+    },
+    "bc_magic_apple_shoot": {
+      "start": 22,
+      "end": 23.593469387755103,
+      "loop": false
+    },
+    "bc_wagon_cranky_in": {
+      "start": 24,
+      "end": 25.227755102040817,
+      "loop": false
+    },
+    "bc_wagon_cranky_out": {
+      "start": 26,
+      "end": 27.332244897959185,
+      "loop": false
+    },
+    "bomb": {
+      "start": 28,
+      "end": 29.581473922902493,
+      "loop": false
+    },
+    "bomb_snail": {
+      "start": 30,
+      "end": 31.044897959183672,
+      "loop": false
+    },
+    "bonus_bubble_plus": {
+      "start": 32,
+      "end": 32.79734693877551,
+      "loop": false
+    },
+    "boss_fox_attack": {
+      "start": 33,
+      "end": 35.45619047619048,
+      "loop": false
+    },
+    "boss_hedgehog_get": {
+      "start": 36,
+      "end": 36.966417233560094,
+      "loop": false
+    },
+    "boss_hedgehog_hit": {
+      "start": 37,
+      "end": 37.90199546485261,
+      "loop": false
+    },
+    "boss_target_flight": {
+      "start": 38,
+      "end": 39.304308390022676,
+      "loop": false
+    },
+    "boss_target_hit": {
+      "start": 40,
+      "end": 40.88092970521542,
+      "loop": false
+    },
+    "boss_target_obtain": {
+      "start": 41,
+      "end": 41.88092970521542,
+      "loop": false
+    },
+    "bounce_bubble_on_pot": {
+      "start": 42,
+      "end": 42.34433106575964,
+      "loop": false
+    },
+    "bubble_collide_wall": {
+      "start": 43,
+      "end": 43.31056689342404,
+      "loop": false
+    },
+    "bubble_gum_1": {
+      "start": 44,
+      "end": 44.40369614512472,
+      "loop": false
+    },
+    "bubble_gum_2": {
+      "start": 45,
+      "end": 48.49578231292517,
+      "loop": false
+    },
+    "bubble_pang": {
+      "start": 49,
+      "end": 49.194580498866216,
+      "loop": false
+    },
+    "bubble_pang_3_5": {
+      "start": 50,
+      "end": 51.141451247165534,
+      "loop": false
+    },
+    "bubble_pang_6": {
+      "start": 52,
+      "end": 53.141451247165534,
+      "loop": false
+    },
+    "buy_coin_ef_create": {
+      "start": 54,
+      "end": 54.401315192743766,
+      "loop": false
+    },
+    "buy_coin_ef_insert": {
+      "start": 55,
+      "end": 55.627369614512475,
+      "loop": false
+    },
+    "buy_item_ef_create": {
+      "start": 56,
+      "end": 57.468321995464855,
+      "loop": false
+    },
+    "buy_item_ef_insert": {
+      "start": 58,
+      "end": 58.13333333333333,
+      "loop": false
+    },
+    "buy_jewel_ef_create": {
+      "start": 59,
+      "end": 59.19374149659864,
+      "loop": false
+    },
+    "buy_jewel_ef_insert": {
+      "start": 60,
+      "end": 60.555850340136054,
+      "loop": false
+    },
+    "buy_life_ef_create": {
+      "start": 61,
+      "end": 61.09628117913832,
+      "loop": false
+    },
+    "buy_life_ef_insert": {
+      "start": 62,
+      "end": 62.37335600907029,
+      "loop": false
+    },
+    "cannon_shoot": {
+      "start": 63,
+      "end": 63.04834467120181,
+      "loop": false
+    },
+    "cannon_swap": {
+      "start": 64,
+      "end": 64.08707482993198,
+      "loop": false
+    },
+    "change_magic_candy": {
+      "start": 65,
+      "end": 65.78768707482993,
+      "loop": false
+    },
+    "click": {
+      "start": 66,
+      "end": 66.15829931972789,
+      "loop": false
+    },
+    "close_pot": {
+      "start": 67,
+      "end": 67.317641723356,
+      "loop": false
+    },
+    "dart": {
+      "start": 68,
+      "end": 69.36895691609978,
+      "loop": false
+    },
+    "double_score_item": {
+      "start": 70,
+      "end": 71.47557823129252,
+      "loop": false
+    },
+    "easter_egg_crash": {
+      "start": 72,
+      "end": 72.75800453514739,
+      "loop": false
+    },
+    "easter_egg_get": {
+      "start": 73,
+      "end": 73.9902947845805,
+      "loop": false
+    },
+    "failed_popup": {
+      "start": 74,
+      "end": 75.1853514739229,
+      "loop": false
+    },
+    "feather_target_collect_new": {
+      "start": 76,
+      "end": 76.65306122448979,
+      "loop": false
+    },
+    "feather_target_obtain": {
+      "start": 77,
+      "end": 77.96698412698413,
+      "loop": false
+    },
+    "fever_christmas": {
+      "start": 78,
+      "end": 80.87346938775511,
+      "loop": false
+    },
+    "fever_start": {
+      "start": 81,
+      "end": 83.28884353741496,
+      "loop": false
+    },
+    "frog_die": {
+      "start": 84,
+      "end": 84.28727891156463,
+      "loop": false
+    },
+    "frog_eat_bubble": {
+      "start": 85,
+      "end": 85.98038548752834,
+      "loop": false
+    },
+    "get_chocolate_popup": {
+      "start": 86,
+      "end": 87.41061224489796,
+      "loop": false
+    },
+    "get_valentine_reward": {
+      "start": 88,
+      "end": 89.25387755102041,
+      "loop": false
+    },
+    "get_valentine_reward_popup": {
+      "start": 90,
+      "end": 91.41061224489796,
+      "loop": false
+    },
+    "get_xmas_parts": {
+      "start": 92,
+      "end": 93.98530612244897,
+      "loop": false
+    },
+    "guide_line_item": {
+      "start": 94,
+      "end": 96.39809523809524,
+      "loop": false
+    },
+    "hang_bubble": {
+      "start": 97,
+      "end": 97.2117006802721,
+      "loop": false
+    },
+    "happy_new_year_popup": {
+      "start": 98,
+      "end": 99.82857142857142,
+      "loop": false
+    },
+    "harvest_drop_bubble": {
+      "start": 100,
+      "end": 101.201768707483,
+      "loop": false
+    },
+    "havest_time": {
+      "start": 102,
+      "end": 103.38884353741497,
+      "loop": false
+    },
+    "hide_spider": {
+      "start": 104,
+      "end": 105.43312925170068,
+      "loop": false
+    },
+    "hit_drop_bubble": {
+      "start": 106,
+      "end": 106.60736961451248,
+      "loop": false
+    },
+    "item_paint": {
+      "start": 107,
+      "end": 108.49587301587302,
+      "loop": false
+    },
+    "line_down": {
+      "start": 109,
+      "end": 109.41777777777777,
+      "loop": false
+    },
+    "line_up": {
+      "start": 110,
+      "end": 110.2884126984127,
+      "loop": false
+    },
+    "Lobby_buy_coin": {
+      "start": 111,
+      "end": 111.7715873015873,
+      "loop": false
+    },
+    "Lobby_buy_heart": {
+      "start": 112,
+      "end": 113.33530612244898,
+      "loop": false
+    },
+    "lobby_roulette_btn_roll_over": {
+      "start": 114,
+      "end": 114.27417233560091,
+      "loop": false
+    },
+    "magic_candy_boom": {
+      "start": 115,
+      "end": 115.78986394557823,
+      "loop": false
+    },
+    "magic_candy_set": {
+      "start": 116,
+      "end": 116.69775510204082,
+      "loop": false
+    },
+    "magic_candy_shoot": {
+      "start": 117,
+      "end": 118.46557823129251,
+      "loop": false
+    },
+    "move_timer": {
+      "start": 119,
+      "end": 127.3330612244898,
+      "loop": false
+    },
+    "mystery_box": {
+      "start": 128,
+      "end": 128.39183673469387,
+      "loop": false
+    },
+    "open_pot": {
+      "start": 129,
+      "end": 129.38267573696146,
+      "loop": false
+    },
+    "open_ranking_list": {
+      "start": 130,
+      "end": 130.16798185941042,
+      "loop": false
+    },
+    "opening_xmas_reward_box": {
+      "start": 131,
+      "end": 132.98530612244897,
+      "loop": false
+    },
+    "popup": {
+      "start": 133,
+      "end": 133.25142857142856,
+      "loop": false
+    },
+    "popup_obtain_star_1": {
+      "start": 134,
+      "end": 135.12326530612245,
+      "loop": false
+    },
+    "popup_obtain_star_2": {
+      "start": 136,
+      "end": 137.33224489795919,
+      "loop": false
+    },
+    "popup_obtain_star_3": {
+      "start": 138,
+      "end": 139.46285714285713,
+      "loop": false
+    },
+    "pot_obtain_score": {
+      "start": 140,
+      "end": 140.8043537414966,
+      "loop": false
+    },
+    "propogation_destroy": {
+      "start": 141,
+      "end": 141.3930612244898,
+      "loop": false
+    },
+    "propogation_show": {
+      "start": 142,
+      "end": 142.79637188208616,
+      "loop": false
+    },
+    "remain_5_bubbles": {
+      "start": 143,
+      "end": 144.5345351473923,
+      "loop": false
+    },
+    "rescue_target_flight": {
+      "start": 145,
+      "end": 145.72739229024944,
+      "loop": false
+    },
+    "rescue_target_obtain": {
+      "start": 146,
+      "end": 147.53585034013605,
+      "loop": false
+    },
+    "rice_straw": {
+      "start": 148,
+      "end": 148.54857142857142,
+      "loop": false
+    },
+    "rocket_boom": {
+      "start": 149,
+      "end": 150.0374149659864,
+      "loop": false
+    },
+    "rocket_set": {
+      "start": 151,
+      "end": 151.74061224489796,
+      "loop": false
+    },
+    "rocket_shoot": {
+      "start": 152,
+      "end": 153.58034013605442,
+      "loop": false
+    },
+    "roulette_spin_pin": {
+      "start": 154,
+      "end": 154.08891156462585,
+      "loop": false
+    },
+    "roulette_spin_result": {
+      "start": 155,
+      "end": 157.7069387755102,
+      "loop": false
+    },
+    "roulette_spinclick": {
+      "start": 158,
+      "end": 160.17283446712017,
+      "loop": false
+    },
+    "show_xmas_reward": {
+      "start": 161,
+      "end": 162.48897959183674,
+      "loop": false
+    },
+    "slide_failed_popup": {
+      "start": 163,
+      "end": 165.74748299319728,
+      "loop": false
+    },
+    "slide_popup_start": {
+      "start": 166,
+      "end": 168.77342403628117,
+      "loop": false
+    },
+    "slide_success_popup": {
+      "start": 169,
+      "end": 171.32888888888888,
+      "loop": false
+    },
+    "snail_move": {
+      "start": 172,
+      "end": 172.46680272108844,
+      "loop": false
+    },
+    "snail_pop": {
+      "start": 173,
+      "end": 174.19478458049886,
+      "loop": false
+    },
+    "success_popup": {
+      "start": 175,
+      "end": 176.01544217687075,
+      "loop": false
+    },
+    "suggest_valentine_next_tier_popup": {
+      "start": 177,
+      "end": 178.85469387755103,
+      "loop": false
+    },
+    "super_fever_christmas": {
+      "start": 179,
+      "end": 182.84,
+      "loop": false
+    },
+    "super_fever_start": {
+      "start": 183,
+      "end": 185.4487755102041,
+      "loop": false
+    },
+    "thanks_alert_pop": {
+      "start": 186,
+      "end": 188.37714285714287,
+      "loop": false
+    },
+    "thanks_gage_update": {
+      "start": 189,
+      "end": 189.6530612244898,
+      "loop": false
+    },
+    "thanks_obtain_reward": {
+      "start": 190,
+      "end": 192.69061224489795,
+      "loop": false
+    },
+    "thunder_bubble": {
+      "start": 193,
+      "end": 194.12639455782312,
+      "loop": false
+    },
+    "tornado_turn": {
+      "start": 195,
+      "end": 196.02952380952382,
+      "loop": false
+    },
+    "wheel": {
+      "start": 197,
+      "end": 197.6990022675737,
+      "loop": false
+    },
+    "add_bonus_bubble": {
+      "start": 198,
+      "end": 198.41904761904763,
+      "loop": false
+    },
+    "apriEvent_change_chick_to_gift_box": {
+      "start": 199,
+      "end": 200.98530612244897,
       "loop": false
     }
   }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>파일 업로드 테스트</title>
+    <title>사운드 파일 업로드</title>
 </head>
 
 <body>
@@ -25,7 +25,10 @@
         <input type="submit" value="업로드" name="submit">
     </form> -->
 
-    <div id="fd" style="width:400px; height:200px; background:#eee;">여기에 파일을 드레그해주세요.</div>
+    <div id="fd" style="width:400px; height:200px; background:#eee;">여기에 파일을 드래그해주세요.
+
+        <h2 id=txt_progress></h2>
+    </div>
     <div id="list">업로드 리스트
         <br/>
     </div>
@@ -71,6 +74,13 @@
                 console.log(e);
                 window.location = '/success';
             }
+
+            xhr.onprogress = function(e)
+            {
+                console.log(e);
+                document.getElementById("txt_progress").innerHTML = "업로드중";
+            }
+
             xhr.open("POST", '/process/photo', true);
             xhr.send(formData);
             

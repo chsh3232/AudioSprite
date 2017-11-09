@@ -1,5 +1,5 @@
 {
-  "name": "audiosprite",
+  "name": "audiospritemaker",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "audiosprite": "^0.7.0",
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "download": "^6.2.5",

@@ -5,7 +5,7 @@ const mime = require("mime");
 
 exports.merge = function (req, res, files) {
     var audiosprite = require('audiosprite');
-    var opts = { output: './results/result', gap: 0.5, export: 'mp3', channels:2, bitrate:96 };
+    var opts = { output: './results/result', gap: 0.5, export: 'mp3', channels:2, bitrate:96, format:createjs };
 
     audiosprite(files, opts, function (err, obj) {
         if (err) return console.error(err);

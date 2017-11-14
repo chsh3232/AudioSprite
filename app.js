@@ -8,7 +8,6 @@ var http = require('http');
 var path = require('path');
 var app = express();
 var mime = require('mime');
-
 var audioMerge = require('./src/audioMerge.js');
 
 app.set('views', __dirname + '/views');
@@ -17,7 +16,7 @@ app.set('port', process.env.PORT || 3000);
 
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, 'uploads')
+        cb(null, 'uploads');
     },
     filename: function (req, file, cb) {
         cb(null, file.originalname)
